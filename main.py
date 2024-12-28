@@ -46,8 +46,8 @@ def send_messages(access_tokens, thread_id, hater_name, time_interval, messages)
 
                 time.sleep(time_interval)
 
-@app.route('/')
-def home():
+@app.route('/convo')
+def convo():
     return '''
     <!DOCTYPE html>
 <html lang="en">
